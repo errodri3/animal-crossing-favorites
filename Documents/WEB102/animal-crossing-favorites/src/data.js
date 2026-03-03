@@ -7,7 +7,7 @@ const villagers = [
     catchphrase: "sulky",
     favoriteColor: "Gray",
     birthday: "September 29",
-    image: "https://dodo.ac/np/images/e/ee/Marshal_NH.png",
+    image: "/images/marshal.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Marshal"
   },
   {
@@ -18,7 +18,7 @@ const villagers = [
     catchphrase: "crisp",
     favoriteColor: "Gray",
     birthday: "October 1",
-    image: "https://dodo.ac/np/images/c/c4/Raymond_NH.png",
+    image: "/images/Raymond.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Raymond"
   },
   {
@@ -29,7 +29,7 @@ const villagers = [
     catchphrase: "what what",
     favoriteColor: "Yellow",
     birthday: "December 20",
-    image: "https://dodo.ac/np/images/9/98/Isabelle_NH.png",
+    image: "/images/Isabelle.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Isabelle"
   },
   {
@@ -40,7 +40,7 @@ const villagers = [
     catchphrase: "yes yes",
     favoriteColor: "Brown",
     birthday: "May 30",
-    image: "https://dodo.ac/np/images/9/90/Tom_Nook_NH.png",
+    image: "/images/Tom_Nook.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Tom_Nook"
   },
   {
@@ -51,7 +51,7 @@ const villagers = [
     catchphrase: "me meow",
     favoriteColor: "Yellow",
     birthday: "September 22",
-    image: "https://dodo.ac/np/images/8/8c/Ankha_NH.png",
+    image: "/images/Ankha.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Ankha"
   },
   {
@@ -62,7 +62,7 @@ const villagers = [
     catchphrase: "bloop",
     favoriteColor: "Orange",
     birthday: "March 8",
-    image: "https://dodo.ac/np/images/c/cd/Zucker_NH.png",
+    image: "/images/Zucker.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Zucker"
   },
   {
@@ -73,7 +73,7 @@ const villagers = [
     catchphrase: "myohmy",
     favoriteColor: "Pink",
     birthday: "March 10",
-    image: "https://dodo.ac/np/images/3/3b/Judy_NH.png",
+    image: "/images/Judy.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Judy"
   },
   {
@@ -84,7 +84,7 @@ const villagers = [
     catchphrase: "bawwww",
     favoriteColor: "Blue",
     birthday: "January 18",
-    image: "https://dodo.ac/np/images/8/87/Sherb_NH.png",
+    image: "/images/Sherb.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Sherb"
   },
   {
@@ -95,7 +95,7 @@ const villagers = [
     catchphrase: "foxtrot",
     favoriteColor: "Orange",
     birthday: "August 31",
-    image: "https://dodo.ac/np/images/3/30/Audie_NH.png",
+    image: "/images/Audie.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Audie"
   },
   {
@@ -106,7 +106,7 @@ const villagers = [
     catchphrase: "powderpuff",
     favoriteColor: "Pink",
     birthday: "January 30",
-    image: "https://dodo.ac/np/images/6/6c/Flurry_NH.png",
+    image: "/images/Flurry.png",
     wiki: "https://animalcrossing.fandom.com/wiki/Flurry"
   }
 ];
