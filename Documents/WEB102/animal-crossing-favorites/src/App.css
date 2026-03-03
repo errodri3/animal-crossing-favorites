@@ -1,0 +1,109 @@
+/* ---- General Page ---- */
+body {
+  margin: 0;
+  font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+  background-color: #c8f0c8;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ---- Header ---- */
+.header {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #4a7c3f;
+  text-shadow: 2px 2px 0px #fff;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: #5a5a3a;
+}
+
+/* ---- Card Grid ---- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+  padding: 20px 0;
+}
+
+/* ---- Individual Card ---- */
+.card {
+  background-color: #fffde7;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background-color: #e8f5e9;
+  padding: 10px;
+}
+
+.card-info {
+  padding: 12px 16px;
+}
+
+.card-info h2 {
+  font-size: 1.3rem;
+  color: #3d6b35;
+  margin: 0 0 8px 0;
+}
+
+.card-info p {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+/* ---- Button ---- */
+.card-info a {
+  text-decoration: none;
+}
+
+.card-info button {
+  margin-top: 12px;
+  padding: 8px 20px;
+  background-color: #78c85a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card-info button:hover {
+  background-color: #5aaa40;
+}
+
+/* ---- Mobile Responsiveness ---- */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+}
